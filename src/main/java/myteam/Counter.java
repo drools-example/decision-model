@@ -12,9 +12,6 @@ public class Counter implements java.io.Serializable {
 
 	private int count;
 
-	@org.kie.api.definition.type.Label(value = "id")
-	private java.lang.String id;
-
 	public Counter() {
 	}
 
@@ -39,18 +36,9 @@ public class Counter implements java.io.Serializable {
 		return "Counter [name=" + name + ", count=" + count + "]";
 	}
 
-	public java.lang.String getId() {
-		return this.id;
-	}
-
-	public void setId(java.lang.String id) {
-		this.id = id;
-	}
-
-	public Counter(java.lang.String name, int count, java.lang.String id) {
+	public Counter(java.lang.String name, int count) {
 		this.name = name;
 		this.count = count;
-		this.id = id;
 	}
 
 }
