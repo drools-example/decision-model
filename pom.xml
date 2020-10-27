@@ -21,6 +21,12 @@
       <version>7.37.0.Final</version>
       <scope>provided</scope>
     </dependency>
+	    <dependency>
+      <groupId>org.kie.server</groupId>
+      <artifactId>kie-server-services-jbpm-ui</artifactId>
+      <version>7.37.0.Final</version>
+      <scope>provided</scope>
+    </dependency>
     <dependency>
       <groupId>org.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
